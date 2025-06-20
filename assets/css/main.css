@@ -53,7 +53,7 @@
 }
 
 .accent-background {
-  --background-color: #0078ff;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
@@ -614,7 +614,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0;
   scroll-margin-top: 92px;
   overflow: clip;
 }
@@ -1626,4 +1626,28 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-links a.facebook i {
+  color: #1877F2; /* Màu Facebook */
+}
+
+.social-links a.instagram i {
+  color: #E1306C; /* Màu Instagram */
+}
+
+.social-links a.linkedin i {
+  color: #0A66C2; /* Màu LinkedIn */
+}
+
+.social-links a:hover i {
+  opacity: 0.8;
 }
